@@ -33,18 +33,3 @@ elif random_number == 11:
   answer = "Not likely"
 elif random_number == 12:
   answer = "Most likely"
-
-else:
-  answer = "Error"
-
-print(name + " asks: " + Question)
-print("Magic 8-Ball's answer: " + answer)
-if name == "":
-  print("Question: " + Question)
-else:
-  print(name + " asks: " + Question)
-if Question == "":
-  print("The Magic 8-Ball cannot provide a fortune unless you ask it something.")
-else:
-  print(name + " asks: " + Question)
-  print("Magic 8-Ball's answer: " + answer)
